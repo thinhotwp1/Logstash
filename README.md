@@ -1,5 +1,5 @@
 # Logstash
-Config logstash for every service springboot
+
 Link drive: https://drive.google.com/drive/folders/1Yj4JqtJvkBQz5C1t_mTLdkgyLyCf8w3B?usp=drive_link
 
 ## Yêu cầu đã cài đặt bộ 3 elk trên server trước
@@ -10,3 +10,7 @@ Link drive: https://drive.google.com/drive/folders/1Yj4JqtJvkBQz5C1t_mTLdkgyLyCf
 
 3. Chạy ứng dụng và kiểm tra index được thêm trên elasticsearch:
 Run application kiểm tra ở cổng: http://localhost:9200/_cat/indices nếu có index "micro-%{appName}" thì đã thành công gửi log lên elasticsearch!
+
+Chi tiết cách làm xem ở link drive ở trên
+
+![image](https://github.com/thinhotwp1/Logstash/assets/61654110/950548f1-e01f-4dfb-b0ef-4e12b35ad52f)
